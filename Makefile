@@ -17,3 +17,7 @@ endef
 .PHONY: bash
 bash:
 	$(call local-dev, bash)
+
+.PHONY: start
+start:
+	$(call local-dev, npm start)

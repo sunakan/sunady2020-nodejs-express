@@ -1,1 +1,9 @@
 = Node.js と Express
+
+----
+$ make start
+----
+
+----
+$ curl http://localhost:8080/
+----
